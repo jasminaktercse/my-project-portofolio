@@ -1,0 +1,145 @@
+    body{
+        font-family: 'EB Garamond', serif;
+        margin: 0;
+    
+    } 
+    h1{
+        font-size: 60px; 
+    }
+    
+    h3{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+    .flexible-area{
+        display: flex; 
+    }
+
+    .half-width{
+        width: 50%; 
+    }
+    
+    .half-width img{
+        width: 75%;
+    }
+   
+
+    .left-border{
+        border-left: 5px solid brown;  
+        padding-left: 5px;
+     }
+
+    .blue-color{
+        color: #202385;
+    
+    }
+    .sky-color{
+        background-color:rgb(219, 240, 248);
+    }
+    .pink-color{
+        background-color: rgb(247, 214, 219);
+    }
+    .orange-color{
+        background-color: rgb(241, 221, 182);
+    }
+    .yellowgreen-color{
+        color: yellowgreen;
+    }
+
+    .brown-color{
+        color: brown;
+    }
+
+
+    .margin-top{
+        margin-top: 70px;
+    }
+    .margin-left{
+        margin-left: 12%;
+    }
+    .margin-left-3{
+        margin-left: 3%;
+    }
+    .margin-left-7{
+        margin-left: 7%;
+    }
+
+
+    .button-link{
+        text-decoration: none;
+        color: white;
+        background-color: brown;
+        padding: 10px 40px;
+        border-radius: 10px;  
+        
+    }
+   
+    .align-center{
+        text-align: center;
+        
+    }
+    .mission-area{
+    
+        width: 80%;
+        margin: auto!important;
+
+    }
+    .mission-area div{
+        margin: 5px;
+        width: 30%;
+        padding: 10px 40px;
+        border-radius: 10px;
+    
+    }
+
+    
+
+    .mission-area div img{
+        width: 40%;
+    }
+    
+    .one-third-width{
+        width: 32%;  
+        
+    }
+    
+    .one-third-width img{
+        width: 100%; 
+        
+    }
+    
+    .coading{
+        margin-left: 3%;
+        background-image: url('images/shapes/shape-1.png');
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 18%;
+    }
+   
+
+
+    .project{
+        padding-bottom: 80px;
+        margin-right: 3%;
+        background-image: url('images/shapes/shape-1.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        background-size: 13%;
+    }
+
+
+    .footer{
+        margin-top: 50px;
+        padding:10px;
+        background-color: black;
+        text-align: center;
+        color: white;
+    }
+
+    .footer h2{
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive; 
+    }
