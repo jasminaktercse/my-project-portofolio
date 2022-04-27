@@ -14,6 +14,9 @@
     p{
         font-size: 20px;
     }
+    img{
+        pointer-events: none;
+     }
     .flexible-area{
         display: flex; 
     }
@@ -81,14 +84,13 @@
         text-align: center;
         
     }
-    .mission-area{
-    
+    .mission-area{ 
         width: 80%;
         margin: auto!important;
 
     }
     .mission-area div{
-        margin: 5px;
+        margin: 0px;
         width: 30%;
         padding: 10px 40px;
         border-radius: 10px;
@@ -143,3 +145,51 @@
         font-size: 40px;
         font-family: 'Dancing Script', cursive; 
     }
+
+
+
+
+    @media only screen and (max-width:992px){
+        .flexible-area{
+            display: block; 
+            text-align: center;
+        }
+
+
+        .half-width{
+           width: 100%;
+        }
+        .margin-left{
+            margin-left: 0;
+           
+       }
+       .left-border{
+           border: 0;
+       }
+
+        .mission-area{ 
+            width: 100%;
+            margin: auto!important;
+    
+        }
+        .mission-area div{ 
+            width: 90%;
+            padding: 10px 5%;
+            margin-top: 15px; 
+        
+        }
+        .one-third-width{
+            width: 100%;
+            margin-top: 50px;
+        }
+        .margin-left-7{
+            margin-left: 0;
+        }
+        .margin-left-3{
+            margin-left: 0;
+        }
+
+    }
+
+
+ 

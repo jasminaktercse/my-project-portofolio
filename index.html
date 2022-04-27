@@ -37,7 +37,7 @@
         </div>
 
         <div class="half-width margin-left">
-            <img src="images/person/person-0.png" alt="">
+            <img src="images/person/person-0.png" onContextMenu="returnfalse;" alt="">
         </div>
 
     </section>
@@ -54,21 +54,21 @@
             <div class="flexible-area mission-area">
 
                 <div class="sky-color">
-                    <img src="images/illustrators/illustrator-1.png" alt="">
+                    <img src="images/illustrators/illustrator-1.png"   alt="">
                     <h2>Misson</h2>
                     <p>Amet minim mollit non deserunt 
                         ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                     </p>
                 </div>
                 <div class="pink-color">
-                    <img src="images/illustrators/illustrator-2.png" alt="">
+                    <img src="images/illustrators/illustrator-2.png"  alt="">
                     <h2>Vison</h2>
                     <p>Amet minim mollit non deserunt 
                         ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                     </p>
                 </div>
                 <div class="orange-color">
-                    <img src="images/illustrators/illustrator-3.png" alt="">
+                    <img src="images/illustrators/illustrator-3.png"   alt="">
                     <h2>Goods</h2>
                     <p>Amet minim mollit non deserunt 
                         ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
@@ -88,7 +88,7 @@
     <section class="flexible-area margin-top coading">
 
         <div class="one-third-width margin-left-7">
-            <img src="images/pictures/coding.png" alt="">
+            <img src="images/pictures/coding.png"   alt="">
         </div>
 
         <div class="half-width margin-left-3 ">
@@ -131,12 +131,13 @@
 
 
         <div class="one-third-width">
-            <img src="images/pictures/project.png" alt="">
+            <img src="images/pictures/project.png"   alt="">
         </div>
 
 
 
     </section>
+
 
     <!--Global Area End-->
 
@@ -151,7 +152,7 @@
 
         
             <div class="one-third-width margin-left-7">
-                <img src="images/pictures/education.jpeg" alt="">
+                <img src="images/pictures/education.jpeg"   alt="">
             </div>
 
             <div class="half-width margin-left-3 ">
@@ -182,7 +183,12 @@
 
   <!--Footer Area END-->
 
-
+  <script>
+    document.addEventListener("contextmenu", function(event){
+    event.preventDefault(); 
+    }, false);
+</script>
+ 
 
 </body>
 </html>
